@@ -1,4 +1,4 @@
-Sokitas' Void of the Dragons Log-o-rama 1.3
+Sokitas' Void of the Dragons Log-o-rama 1.5
 
 Overview
 This Python script is designed to analyze combat logs from the game "Void of the Dragons." It provides insights into various statistics, including overall damage, crit rate, damage taken, and player effects.
