@@ -40,7 +40,7 @@ Contributing
 Contributions are welcome! Please contact me to request a collaboration.
 
 License
-This project is licensed under the GPL3 License - see the LICENSE file for details.
+This project is licensed under a modified MIT license that explicitly restricts commercial use - see the LICENSE file for details.
 
 Acknowledgments
 Mountain Goat Song titles are all rights reserved to the band the Mountain Goats / MERGE Records and their respective rights holders 
