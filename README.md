@@ -30,7 +30,9 @@ Run the script:
 bash
 Copy code
 python combat_log_analyzer.py
-Follow the on-screen instructions to input your combat log and character name. The script will display parsed results, charts, and save them to a file.
+
+Create a .txt file in the same folder with the name character_names.txt and add the character names you want to parse logs for. One name per line.
+Follow the on-screen instructions to input your combat log. The script will display parsed results, charts, and save them to a file.
 
 Screenshots
 ![image](https://github.com/Sokitas/Void-of-the-Dragons-Log-o-rama/assets/159527539/d20f7609-4110-49db-a324-a69d3d501485)
