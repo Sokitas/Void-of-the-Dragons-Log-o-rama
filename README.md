@@ -1,4 +1,4 @@
-Sokitas' Void of the Dragons Log-o-rama 1.5
+Sokitas' Void of the Dragons Log-o-rama 1.6
 
 Overview
 This Python script is designed to analyze combat logs from the game "Void of the Dragons." It provides insights into various statistics, including overall damage, crit rate, damage taken, and player effects.
@@ -47,3 +47,7 @@ This project is licensed under a modified MIT license that explicitly restricts 
 Acknowledgments
 Mountain Goat Song titles are all rights reserved to the band the Mountain Goats / MERGE Records and their respective rights holders 
 Special thanks to the contributors and users!
+
+Tips
+You can grab me a coffee at Ko-fi. It's completely optional, though. I'd honestly prefer you use your money where it matters most for you.
+ https://Ko-fi.com/sokitas
