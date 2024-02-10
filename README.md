@@ -55,7 +55,8 @@ This project is licensed under a modified MIT license that explicitly restricts 
 Acknowledgments
 
 Mountain Goat Song titles are all rights reserved to the band the Mountain Goats / MERGE Records and their respective rights holders 
-Special thanks to the contributors and users!
+
+
 
 Tips
 
