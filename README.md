@@ -12,11 +12,16 @@ Player Effects: Track and analyze the impact of individual player effects, inclu
 
 Getting Started
 
+If you are on Windows, grab the newest binary from the RELEASES section.
+
+
 Prerequisites
 Python 3.x
 Tkinter (usually included in Python installations)
 Matplotlib
+
 Installation
+
 Clone the repository:
 
 bash
