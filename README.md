@@ -39,7 +39,11 @@ Create a .txt file in the same folder with the name character_names.txt and add 
 Follow the on-screen instructions to input your combat log. The script will display parsed results, charts, and save them to a file.
 
 Screenshots
-![image](https://github.com/Sokitas/Void-of-the-Dragons-Log-o-rama/assets/159527539/a034172a-9288-43ef-bac5-841b41907206)
+![NVIDIA_Share_6LlqcZPS9t](https://github.com/Sokitas/Void-of-the-Dragons-Log-o-rama/assets/159527539/399ad38d-4a78-45be-8232-58753626ca3a)
+
+![image](https://github.com/Sokitas/Void-of-the-Dragons-Log-o-rama/assets/159527539/0967fc3f-971e-4cca-95be-642fba13979a)
+
+
 
 
 
