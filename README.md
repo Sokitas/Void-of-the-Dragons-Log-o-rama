@@ -1,4 +1,4 @@
-Sokitas' Void of the Dragons Log-o-rama 1.8
+Sokitas' Void of the Dragons Log-o-rama 1.9
 
 Overview
 
