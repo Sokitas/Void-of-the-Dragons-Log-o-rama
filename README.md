@@ -52,6 +52,13 @@ Screenshots
 ![image](https://github.com/Sokitas/Void-of-the-Dragons-Log-o-rama/assets/159527539/0967fc3f-971e-4cca-95be-642fba13979a)
 
 
+NOTICE
+
+If you encounter any false positives from Windows Defender, claiming the file contains a Trojan, be aware that this is a common false positives associated with executables built with some versions of pyinstaller. 
+It seems the way the application reads and writes the config file in its directory is seen as snooping around. I sent the 1.9 version to Microsoft for investigation and possible whitelisting. 
+![image](https://github.com/Sokitas/Void-of-the-Dragons-Log-o-rama/assets/159527539/249d86d7-7cd8-4db8-a78d-407eebbc036c)
+
+
 
 
 
