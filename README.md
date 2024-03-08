@@ -44,7 +44,7 @@ bash
 Copy code
 python combat_log_analyzer.py
 
-Create a .txt file in the same folder with the name character_names.txt and add the character names you want to parse logs for. One name per line.
+
 Follow the on-screen instructions to input your combat log. The script will display parsed results, charts, and save them to a file.
 
 Screenshots
