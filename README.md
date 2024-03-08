@@ -1,4 +1,4 @@
-Sokitas' Void of the Dragons Log-o-rama 1.9
+Sokitas' Void of the Dragons Log-o-rama 2.0
 
 Overview
 
@@ -9,6 +9,7 @@ Features
 Combat Log Parsing: Parse combat logs to extract information about hits, damage, experience gained, and more.
 Statistical Analysis: Calculate various statistics such as overall damage, average damage per hit, crit rate, and share of crit damage.
 Player Effects: Track and analyze the impact of individual player effects, including damage dealt, procs, and total damage.
+DotV Raid Manager Raid History Analysis: Know how much of each item you have looted. Easily see how many Stat Points you gained from a given group of looted raids. 
 
 Getting Started
 
