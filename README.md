@@ -15,6 +15,7 @@ Getting Started
 
 If you are on Windows, grab the newest binary from the RELEASES section.
 
+Or, if you are savvy in python, download the source code and run it yourself. 
 
 Prerequisites
 
@@ -24,25 +25,6 @@ Tkinter (usually included in Python installations)
 
 Matplotlib
 
-Installation
-
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/CombatLogAnalyzer.git
-cd CombatLogAnalyzer
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run the script:
-
-bash
-Copy code
-python combat_log_analyzer.py
 
 
 Follow the on-screen instructions to input your combat log. The script will display parsed results, charts, and save them to a file.
