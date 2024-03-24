@@ -1,4 +1,4 @@
-# Sokitas' Void of the Dragons Log-o-rama 2.0
+# Sokitas' Void of the Dragons Log-o-rama 2.1
 
 ## Overview
 
