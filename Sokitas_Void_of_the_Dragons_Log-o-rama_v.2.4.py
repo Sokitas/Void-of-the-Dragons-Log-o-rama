@@ -293,7 +293,7 @@ class CombatAnalyzer:
 
         # Add up all damage components
         total_damage = base_damage + crit_enhanced_damage + effect_damage
-        self.total_damage += total_damage
+
 
         # Update base crit damage only if crit occurred
         if crit_enhanced_damage > 0:
@@ -456,31 +456,41 @@ class CombatAnalyzer:
 
     def load_config(self):
         config = configparser.ConfigParser()
+
+        # Create the config file with default values if it doesn't exist
         if not os.path.exists('config.ini'):
-            # If not, create it with default values
             config['PersonalBest'] = {'Value': '0'}
             config['FontSettings'] = {'FontFamily': 'Arial', 'FontSize': 10}
             config["LoggingSettings"] = {"LogResultsEnabled": "False"}
-            config["CritDamageBonus"] = {'Value': '0'}
+            config["CritDamageBonus"] = {'Value': '0.0'}
             with open('config.ini', 'w') as configfile:
                 config.write(configfile)
-        try:
-            config.read('config.ini')
-            self.personal_best_hit = int(config['PersonalBest']['Value'])
-            self.crit_damage_bonus = float(config['CritDamageBonus']['Value'])
-        except (configparser.NoSectionError, configparser.NoOptionError, ValueError):
-            self.personal_best_hit = 0
-            self.crit_damage_bonus = 0
+
+        # Read the config file
+        config.read('config.ini')
+
+        # Load the personal best hit, default to 0 if not found
+        self.personal_best_hit = int(config.get('PersonalBest', 'Value', fallback='0'))
+
+        # Load the crit damage bonus, default to 0.0 if not found
+        self.crit_damage_bonus = float(config.get('CritDamageBonus', 'Value', fallback='0.0'))
 
     def save_config(self):
         config = configparser.ConfigParser()
+
+        # Read existing config to preserve all sections
+        if os.path.exists('config.ini'):
+            config.read('config.ini')
+
+        # Update the config with current values
         config['PersonalBest'] = {'Value': str(self.personal_best_hit)}
         config['FontSettings'] = {'FontFamily': self.font_family, 'FontSize': str(self.font_size)}
         config['LoggingSettings'] = {'LogResultsEnabled': str(self.log_results_enabled)}
+        config['CritDamageBonus'] = {'Value': str(self.crit_damage_bonus)}
 
+        # Write the updated config back to the file
         with open('config.ini', 'w') as configfile:
             config.write(configfile)
-
 
 
     def log_results(self, result_str):
